@@ -42,3 +42,12 @@ print(valure_reverse_based)
 # Sort dictionary by values (strings converted to integers for numeric comparison)
 sorted_dict = {k: v for k, v in sorted(my_dict.items(), key=lambda item: item[0])}
 print(sorted_dict)
+
+#adding values
+#Input : {‘a’: 100, ‘b’:200, ‘c’:300}
+#Output : 600
+
+data = {'a': 100, 'b':200, 'c':300} 
+add = list(data.values())
+result =  sum(add)
+print(f" Addition of values is {result}")
